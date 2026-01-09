@@ -10,12 +10,6 @@ export default function Navbar() {
                 <li className="nav-item">
                     <NavLink className="nav-link" to="/receptek">Listaoldal</NavLink>
                 </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/admin">Admin</NavLink>
-                </li>
-                <li className="nav-item">
-                    <NavLink className="nav-link" to="/login">Bejelentkezés</NavLink>
-                </li>
             </ul>
         </nav>
     );
